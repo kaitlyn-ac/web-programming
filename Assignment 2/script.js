@@ -10,7 +10,7 @@ function hobbySearch() {
 
     // Loop through the hobby list items
     for (let i = 0; i < items.length; i++) {
-        // Get the text content of each item and convert it to lowercase
+        // Get the text content of each item and convert it to lowercase for comparison
         const text = items[i].textContent.toLowerCase();
         // Show or hide the item based on whether it includes the filter text   
         items[i].style.display = text.includes(filter) ? "" : "none";
