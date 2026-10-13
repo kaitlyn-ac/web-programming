@@ -49,6 +49,7 @@ footer {
     font-style: italic;
 }
 
+/* rule to style the text input field with a background color */
 input[type="text"] {
     background-color: #E8F0FA;
 }
