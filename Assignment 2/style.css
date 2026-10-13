@@ -13,12 +13,12 @@ ul {
     width: 300px;
     list-style-type: none;
     padding: 0;
-    border: 1px solid #ddd;
+    border: 1px solid #808080;
 }
 /* rule to set padding and add border to each list item */
 ul li  {
     padding: 8px 16px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #808080;
 }
 
 /* rule to remove the border from the last list item 
