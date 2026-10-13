@@ -1,6 +1,10 @@
+/* rule to set the font family for the entire page */
+* {
+    font-family: Arial, sans-serif;
+}
 
 /* rule to make the main heading colored and centered */
-h1 {
+.main-heading {
     color: fuchsia;
     background-color: #E8F0FA;
     text-align: center;
@@ -12,14 +16,14 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-border.
 [Accessed 13 October 2026].*/
 /* rule to set the width, remove bullet points, padding, and add 
 border to the list */
-ul {
+#hobbyList {
     width: 300px;
     list-style-type: none;
     padding: 0;
     border: 1px solid #808080;
 }
 /* rule to set padding and add border to each list item */
-ul li  {
+#hobbyList li  {
     padding: 8px 16px;
     border-bottom: 1px solid #808080;
 }
@@ -27,7 +31,7 @@ ul li  {
 /* rule to remove the border from the last list item 
 (since there is a border around the entire list the last 
 item doesn't need one) */
-ul li:last-child {
+#hobbyList li:last-child {
     border-bottom: none;
 }
 
@@ -38,10 +42,13 @@ ul li:hover {
     color: white;
 }
 
-/* rule to style the footer with a background color, font family, 
+/* rule to style the footer with a background color 
 and font style */
 footer {
     background-color: #E8F0FA;
-    font-family: Arial, sans-serif;
     font-style: italic;
+}
+
+input[type="text"] {
+    background-color: #E8F0FA;
 }
