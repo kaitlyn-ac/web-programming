@@ -1,32 +1,42 @@
 
-
+/* rule to make the main heading colored and centered */
 h1 {
     color: fuchsia;
     background-color: #E8F0FA;
     text-align: center;
 }
 
+/* 3 rules following makes the hobbies list have required styling  */
+/* rule to set the width, remove bullet points, padding, and add 
+border to the list */
 ul {
     width: 300px;
     list-style-type: none;
     padding: 0;
     border: 1px solid #ddd;
 }
-
+/* rule to set padding and add border to each list item */
 ul li  {
     padding: 8px 16px;
     border-bottom: 1px solid #ddd;
 }
 
+/* rule to remove the border from the last list item 
+(since there is a border around the entire list the last 
+item doesn't need one) */
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* rule to change the background color and text color of a list 
+item when hovered over */
 ul li:hover {
     background-color: #800080;
     color: white;
 }
 
-ul li:last-child {
-    border-bottom: none;
-}
-
+/* rule to style the footer with a background color, font family, 
+and font style */
 footer {
     background-color: #E8F0FA;
     font-family: Arial, sans-serif;
