@@ -1,4 +1,7 @@
 // Function to filter the hobby list based on user input
+/*[1] 	w3schools, "How TO - Filter/Search List," [Online]. Available: 
+https://www.w3schools.com/howto/howto_js_filter_lists.asp. [Accessed 13 October 2026].
+*/
 function hobbySearch() {
     //get the input value
     const input = document.getElementById("searchBox");
@@ -18,6 +21,9 @@ function hobbySearch() {
 }
 
 // Function to toggle the visibility of the hobby list
+/*[2] 	w3schools, "How TO - Toggle Hide and Show," [Online]. Available: 
+https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp. [Accessed 13 October 2026].
+ */
 function toggleList() {
     // Get the hobby list element
     const myHobbyList = document.getElementById("hobbyList");
@@ -25,6 +31,9 @@ function toggleList() {
     myHobbyList.style.display = myHobbyList.style.display === "none" ? "block" : "none";
 }
 
+/*[4] 	w3schools, "JavaScript EventListener," [Online]. Available: 
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp. [Accessed 13 October 2026].
+*/
 // event listener for search box
 document.getElementById("searchBox").addEventListener("keyup", hobbySearch);
 

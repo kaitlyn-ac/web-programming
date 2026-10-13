@@ -6,7 +6,10 @@ h1 {
     text-align: center;
 }
 
-/* 3 rules following makes the hobbies list have required styling  */
+/* 3 rules following makes the hobbies list have required styling  
+[3] 	w3schools, "A List With Borders," [Online]. Available: 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-border. 
+[Accessed 13 October 2026].*/
 /* rule to set the width, remove bullet points, padding, and add 
 border to the list */
 ul {
